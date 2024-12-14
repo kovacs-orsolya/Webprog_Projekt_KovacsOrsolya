@@ -42,7 +42,7 @@ ENGINE = InnoDB;
 -- Table `HallBooking`.`bookings`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `HallBooking`.`bookings` (
-  `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `halls_id` INT UNSIGNED NOT NULL,
   `users_id` INT UNSIGNED NOT NULL,
   `bookedDate` DATE NULL,
